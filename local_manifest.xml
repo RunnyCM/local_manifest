@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote fetch="git://github.com/CyanogenMod/" name="cyanogen" review=""/>
+  <remote fetch="git://github.com/Zasuk/" name="zasuk" review=""/>
+
+  <remove-project name="android_device_hp_tenderloin"/>
+  <remove-project name="android_device_htc_bravo"/>
+  <remove-project name="android_device_htc_desirec"/>
+  <remove-project name="android_device_htc_evita"/>
+  <remove-project name="android_device_htc_express"/>
+  <remove-project name="android_device_htc_glacier"/>
+  <remove-project name="android_device_htc_inc"/>
+  <remove-project name="android_device_htc_jewel"/>
+  <remove-project name="android_device_htc_kingdom"/>
+  <remove-project name="android_device_htc_lexikon"/>
+  <remove-project name="android_device_htc_passion"/>
+  <remove-project name="android_device_htc_primoc"/>
+  <remove-project name="android_device_htc_pyramid"/>
+  <remove-project name="android_device_htc_ruby"/>
+  <remove-project name="android_device_htc_shooter"/>
+  <remove-project name="android_device_htc_shooteru"/>
+  <remove-project name="android_device_htc_shootervm"/>
+  <remove-project name="android_device_htc_speedy"/>
+  <remove-project name="android_device_htc_supersonic"/>
+  <remove-project name="android_device_htc_vivow"/>
+  
+  <remove-project name="android_vendor_asus"/>
+  <remove-project name="android_vendor_hp"/>
+  <remove-project name="android_vendor_htc"/>
+  <remove-project name="android_vendor_lge"/>
+  <remove-project name="android_vendor_samsung"/>
+
+  <project name="android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="cyanogen" revision="cm-10.1"/>
+  <project name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="cyanogen" revision="cm-10.1"/>
+  <project name="android_device_htc_runnymede" path="device/htc/runnymede" remote="zasuk" revision="evervolv4.2"/>
+  <project name="android_vendor_htc_runnymede" path="vendor/htc/runnymede" remote="zasuk" revision="evervolv4.2"/>
+
+</manifest>
