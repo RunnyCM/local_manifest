@@ -3,27 +3,41 @@
 
   <remote fetch="git://github.com/Evervolv/" name="ev" review=""/>
   
-  <remove-project name="AOKP/frameworks_av"/>
-  <remove-project name="android_hardware_libhardware"/>
-  <remove-project name="android_hardware_libhardware_legacy"/>
-  <remove-project name="platform/packages/apps/Email"/>
-  
+  <remove-project name="CyanogenMod/android_frameworks_av"/>
+  <remove-project name="CyanogenMod/android_frameworks_native"/>
+  <remove-project name="CyanogenMod/android_hardware_libhardware"/>
+  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy"/>
+  <remove-project name="CyanogenMod/android_device_common"/>
+  <!--<remove-project name="CyanogenMod/android_frameworks_opt_telephony" />-->
+  <remove-project name="ParanoidAndroid/android_system_core"/>
+
+
 
   <!-- Evervolv -->
+  <project name="android_device_common" path="device/common" remote="ev" revision="jellybean"/>
   <project name="android_frameworks_av" path="frameworks/av" remote="ev" revision="jellybean"/>
+  <project name="android_frameworks_native" path="frameworks/native" remote="ev" revision="jellybean"/>
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="ev" revision="jellybean"/>
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="ev" revision="jellybean"/>
+  <project name="android_hardware_msm7k" path="hardware/msm7k" remote="ev" revision="jellybean"/>
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" remote="ev" revision="jellybean"/>
+  <project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="ev" revision="jellybean"/>
+  <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="ev" revision="jellybean"/>
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="ev" revision="jellybean"/>
+  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="ev" revision="jellybean"/>
+  <project name="android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="ev" revision="jellybean"/>
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="ev" revision="jellybean"/>
+  <project name="android_hardware_qcom_msm8960" path="hardware/qcom/msm8960" remote="ev" revision="jellybean"/>
+  <project name="android_hardware_qcom_power" path="hardware/qcom/power" remote="ev" revision="jellybean"/>
+  <project name="android_hardware_qcom_sensors" path="hardware/qcom/sensors" remote="ev" revision="jellybean"/>
+  <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="ev" revision="jellybean"/>
   <project name="android_hardware_qcom_audio-legacy" path="hardware/qcom/audio-legacy" remote="ev" revision="jellybean"/>
+  <project name="android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" remote="ev" revision="jellybean"/>
   <project name="android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="ev" revision="jellybean"/>
   <project name="android_hardware_qcom_gps-legacy" path="hardware/qcom/gps-legacy" remote="ev" revision="jellybean"/>
   <project name="android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="ev" revision="jellybean"/>
+  <project name="android_system_core" path="system/core" remote="ev" revision="jellybean"/>
   <project name="android_device_htc_msm7x30-common" path="device/htc/msm7x30-common" remote="ev" revision="jellybean"/>
-  
-  <!-- Misc -->
-  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-10.1" />
-  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-10.1" />
-  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" revision="cm-10.1" />
-  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-10.1" />
-  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-10.1" />
-  
+  <!--<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="ev" revision="jellybean" />-->
+
 </manifest>
